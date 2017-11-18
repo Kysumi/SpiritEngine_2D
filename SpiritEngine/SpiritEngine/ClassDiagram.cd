@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="se::BoxShape" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAJgAAQAAAAggAAAAAAAAAAAAAAAAQAAAAAAAMAAA=</HashCode>
+      <FileName>BoxShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="se::PolygonShape" Collapsed="true">
+    <Position X="3.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAJhAAAAAAAgAAAAAAAAACAAgAAAIQAIAAAEAMAAA=</HashCode>
+      <FileName>PolygonShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="se::ScreenManager" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAACAEAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>ScreenManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="se::CircleShape" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEJgAAAACAAgAAAAAAAAAAAAAAAAAQAAgAAAAMAAA=</HashCode>
+      <FileName>seCircleShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="se::Mouse" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQIAgwAAAAAAAAAIAAAAAAAAEAAA=</HashCode>
+      <FileName>seMouse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="se::QueryCallback" Collapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAIAIAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>seMouse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="se::Shape" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEZAAAAAAAAAgAAAEAAAATAQAAAABQAAAAAAAMAAA=</HashCode>
+      <FileName>seShape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="se::Console" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAABAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Console.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="se::Tools" Collapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAgAAAAAgAAAAQAAAAAAUAAA=</HashCode>
+      <FileName>Tools.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="se::Vector2f" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIAEAABgAQAAAAAAABAAADAQAgEAAAAAAAwAAAAAA=</HashCode>
+      <FileName>seVector2f.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="se::Config" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABQAAACoAAAAAAAAAAAAABAAAoQgAAAAAiAABAAAA=</HashCode>
+      <FileName>Config.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="se::Content" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAEA4AAAhgAAAgACAFAAACJAAAIABACCAEAAAA=</HashCode>
+      <FileName>Content.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="se::InputManager" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAQAAAAAAAoAAAAAAAgAAAAIAAFAAEAAIAAEAgI=</HashCode>
+      <FileName>InputManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="se::Localization" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEgAAAAAAIAAAAAgAAAACAEAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Localization.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Screen" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAgBAIAQBAAAAAAAAAEAAAQIAIEIAA=</HashCode>
+      <FileName>Screen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="se::Rendering::Renderable" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAgAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Renderable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="se::Rendering::Manager" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAACwAAAgAIAAAAAABAAAAABAAAAEAgAAAAkAI=</HashCode>
+      <FileName>RenderManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="le::BaseLua" Collapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACEICAJUHAAAQUsFAEYGAAkgASACAABQCRAgAKQgAA=</HashCode>
+      <FileName>BaseLua.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="le::LuaScript" Collapsed="true">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LuaScript.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="le::BaseModule" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAEAAAAAQAAACAAIAAAAAAAAAAAQIAAAAAIAAAAAA=</HashCode>
+      <FileName>BaseModule.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="le::LuaContent" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQACAAgABBAAABAAAAAAAAAAABAAIAABAAA=</HashCode>
+      <FileName>LuaContent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="le::LuaScreen" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>LuaScreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="le::LuaTools" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAgAAAAAAAAAAAAAAAAAAABAIAAAAAA=</HashCode>
+      <FileName>LuaTools.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="se::Config_String" Collapsed="true">
+    <Position X="14.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="se::Config_Int" Collapsed="true">
+    <Position X="13" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAgACQAAAAAAAAAAAAAAAAgAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="se::Config_Float" Collapsed="true">
+    <Position X="11.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="se::Config_Boolean" Collapsed="true">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="se::InputType" Collapsed="true">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAhAAICCAAAAAADEEAAAAAAAEAKEAAAAQAAAIAAQAIA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="le::LuaDataType" Collapsed="true">
+    <Position X="11.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Enums.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

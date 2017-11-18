@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Build Event">
+      <UniqueIdentifier>{f3193196-12cf-42d3-bd7d-88672639ef00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering">
+      <UniqueIdentifier>{63284241-9223-497c-9f20-8676428be741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{7a21dc57-a4e7-471b-af24-80a931af7397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LuaEngine">
+      <UniqueIdentifier>{0ef43b3c-c27a-471b-930e-780570bf893d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LuaEngine\LuaModules">
+      <UniqueIdentifier>{e250e35d-3ba0-464d-bb9f-34db0dcba2f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{2e1a86fc-298c-4da0-bee2-3dfb87b4b2ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LuaEngine">
+      <UniqueIdentifier>{c2465290-8df7-4b47-8879-f43697bcf1eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LuaEngine\LuaModules">
+      <UniqueIdentifier>{2582ad68-b556-476b-b98b-fec63a27762d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{b59c503a-4319-478c-aead-7f2e4e678902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Content">
+      <UniqueIdentifier>{20ff30dc-b436-40b8-87a0-9b1b3b6f510c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extentions">
+      <UniqueIdentifier>{9b8139fd-40c9-458e-a443-53f14c15b421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Extentions">
+      <UniqueIdentifier>{02d561ae-b97d-406b-beec-5b6d27a9b2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Systems">
+      <UniqueIdentifier>{32285c9e-6c99-49e8-991b-8a16bdca1b6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems">
+      <UniqueIdentifier>{84c47f1d-5827-45dd-b5f0-c7fdf4b7da24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Content\Lua">
+      <UniqueIdentifier>{ba23f9f3-0d34-49b1-af42-2c584d04f62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Content\Lua\System">
+      <UniqueIdentifier>{2ec1535f-d30f-4905-aff1-fe9710658d95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Content\Lua\Libs">
+      <UniqueIdentifier>{0cbbf6e4-8ad5-4da7-a888-dc4ec151dd9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Content\Lua\Locals">
+      <UniqueIdentifier>{4cfecb61-4b5f-4718-ae9a-ac0010a06177}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="seCircleShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="seShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLua.h">
+      <Filter>Header Files\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript.h">
+      <Filter>Header Files\LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="seVector2f.h">
+      <Filter>Header Files\Extentions</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseModule.h">
+      <Filter>Header Files\LuaEngine\LuaModules</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaTools.h">
+      <Filter>Header Files\LuaEngine\LuaModules</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Content.h">
+      <Filter>Header Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaContent.h">
+      <Filter>Header Files\LuaEngine\LuaModules</Filter>
+    </ClInclude>
+    <ClInclude Include="seMouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScreen.h">
+      <Filter>Header Files\LuaEngine\LuaModules</Filter>
+    </ClInclude>
+    <ClInclude Include="Localization.h">
+      <Filter>Header Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiritEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="seCircleShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseLua.cpp">
+      <Filter>Source Files\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript.cpp">
+      <Filter>Source Files\LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderable.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="seVector2f.cpp">
+      <Filter>Source Files\Extentions</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseModule.cpp">
+      <Filter>Source Files\LuaEngine\LuaModules</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaTools.cpp">
+      <Filter>Source Files\LuaEngine\LuaModules</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Content.cpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaContent.cpp">
+      <Filter>Source Files\LuaEngine\LuaModules</Filter>
+    </ClCompile>
+    <ClCompile Include="seMouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScreen.cpp">
+      <Filter>Source Files\LuaEngine\LuaModules</Filter>
+    </ClCompile>
+    <ClCompile Include="Localization.cpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="post_build.bat">
+      <Filter>Resource Files\Build Event</Filter>
+    </None>
+    <None Include="Content\config.lua">
+      <Filter>Resource Files\Content</Filter>
+    </None>
+    <None Include="Content\Lua\global.lua">
+      <Filter>Resource Files\Content\Lua</Filter>
+    </None>
+    <None Include="Content\Lua\System\ContentLoader.lua">
+      <Filter>Resource Files\Content\Lua\System</Filter>
+    </None>
+    <None Include="Content\Lua\Locals\en.lua">
+      <Filter>Resource Files\Content\Lua\Locals</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

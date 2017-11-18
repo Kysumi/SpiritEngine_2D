@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D22D120A1E7BB92200C6D4F5 /* Content.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22D12061E7BB92200C6D4F5 /* Content.cpp */; };
+		D22D120B1E7BB92200C6D4F5 /* LuaTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22D12081E7BB92200C6D4F5 /* LuaTools.cpp */; };
+		D22D12101E7F4CE600C6D4F5 /* LuaContent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22D120C1E7F4CE600C6D4F5 /* LuaContent.cpp */; };
+		D22D12111E7F4CE600C6D4F5 /* Plinko.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22D120E1E7F4CE600C6D4F5 /* Plinko.cpp */; };
+		D22D12141E7F933F00C6D4F5 /* seMouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22D12121E7F933F00C6D4F5 /* seMouse.cpp */; };
+		D23406BA1E7A55DD000EFA82 /* libluajit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D23406B91E7A55DD000EFA82 /* libluajit.a */; };
+		D24FF5011E823A18001AC068 /* Screen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D24FF4FF1E823A18001AC068 /* Screen.cpp */; };
+		D24FF5051E833536001AC068 /* Tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D24FF5041E833536001AC068 /* Tools.cpp */; };
+		D25ED44A1E77CA9C0039DC08 /* BaseModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D25ED43A1E77CA9C0039DC08 /* BaseModule.cpp */; };
+		D25ED44C1E77CA9C0039DC08 /* BoxShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D25ED43E1E77CA9C0039DC08 /* BoxShape.cpp */; };
+		D25ED44D1E77CA9C0039DC08 /* Config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D25ED4401E77CA9C0039DC08 /* Config.cpp */; };
+		D25ED44E1E77CA9C0039DC08 /* InputManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D25ED4431E77CA9C0039DC08 /* InputManager.cpp */; };
+		D25ED44F1E77CA9C0039DC08 /* LuaScript.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D25ED4451E77CA9C0039DC08 /* LuaScript.cpp */; };
+		D25ED4511E77CA9C0039DC08 /* PolygonShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D25ED4481E77CA9C0039DC08 /* PolygonShape.cpp */; };
+		D25ED45D1E77CAC60039DC08 /* Renderable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D25ED4521E77CAC60039DC08 /* Renderable.cpp */; };
+		D25ED45E1E77CAC60039DC08 /* RenderManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D25ED4541E77CAC60039DC08 /* RenderManager.cpp */; };
+		D25ED45F1E77CAC60039DC08 /* seCircleShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D25ED4561E77CAC60039DC08 /* seCircleShape.cpp */; };
+		D25ED4601E77CAC60039DC08 /* seShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D25ED4581E77CAC60039DC08 /* seShape.cpp */; };
+		D25ED4611E77CAC60039DC08 /* seVector2f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D25ED45A1E77CAC60039DC08 /* seVector2f.cpp */; };
+		D25ED4621E77CAC60039DC08 /* SpiritEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D25ED45C1E77CAC60039DC08 /* SpiritEngine.cpp */; };
+		D25ED47F1E77E19B0039DC08 /* BaseLua.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D25ED47C1E77E19B0039DC08 /* BaseLua.cpp */; };
+		D25ED4FB1E77E8C80039DC08 /* libBox2D.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D25ED4FA1E77E8C80039DC08 /* libBox2D.a */; };
+		D2FFB3B11E84EC9500C8EFFE /* LuaBoxShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2FFB3AF1E84EC9500C8EFFE /* LuaBoxShape.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D22D12061E7BB92200C6D4F5 /* Content.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Content.cpp; path = ../../SpiritEngine/SpiritEngine/Content.cpp; sourceTree = "<group>"; };
+		D22D12071E7BB92200C6D4F5 /* Content.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Content.h; path = ../../SpiritEngine/SpiritEngine/Content.h; sourceTree = "<group>"; };
+		D22D12081E7BB92200C6D4F5 /* LuaTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LuaTools.cpp; path = ../../SpiritEngine/SpiritEngine/LuaTools.cpp; sourceTree = "<group>"; };
+		D22D12091E7BB92200C6D4F5 /* LuaTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LuaTools.h; path = ../../SpiritEngine/SpiritEngine/LuaTools.h; sourceTree = "<group>"; };
+		D22D120C1E7F4CE600C6D4F5 /* LuaContent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LuaContent.cpp; path = ../../SpiritEngine/SpiritEngine/LuaContent.cpp; sourceTree = "<group>"; };
+		D22D120D1E7F4CE600C6D4F5 /* LuaContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LuaContent.h; path = ../../SpiritEngine/SpiritEngine/LuaContent.h; sourceTree = "<group>"; };
+		D22D120E1E7F4CE600C6D4F5 /* Plinko.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Plinko.cpp; path = ../../SpiritEngine/SpiritEngine/Plinko.cpp; sourceTree = "<group>"; };
+		D22D120F1E7F4CE600C6D4F5 /* Plinko.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plinko.h; path = ../../SpiritEngine/SpiritEngine/Plinko.h; sourceTree = "<group>"; };
+		D22D12121E7F933F00C6D4F5 /* seMouse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = seMouse.cpp; path = ../../SpiritEngine/SpiritEngine/seMouse.cpp; sourceTree = "<group>"; };
+		D22D12131E7F933F00C6D4F5 /* seMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = seMouse.h; path = ../../SpiritEngine/SpiritEngine/seMouse.h; sourceTree = "<group>"; };
+		D23406B91E7A55DD000EFA82 /* libluajit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libluajit.a; path = "Libs/LuaJIT-2.0.4/src/libluajit.a"; sourceTree = "<group>"; };
+		D24FF4FF1E823A18001AC068 /* Screen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Screen.cpp; path = ../../SpiritEngine/SpiritEngine/Screen.cpp; sourceTree = "<group>"; };
+		D24FF5001E823A18001AC068 /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Screen.h; path = ../../SpiritEngine/SpiritEngine/Screen.h; sourceTree = "<group>"; };
+		D24FF5041E833536001AC068 /* Tools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tools.cpp; path = ../../SpiritEngine/SpiritEngine/Tools.cpp; sourceTree = "<group>"; };
+		D25ED42B1E77C4EE0039DC08 /* SEMAC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SEMAC; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25ED4311E77C4EE0039DC08 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		D25ED4321E77C4EE0039DC08 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		D25ED4331E77C4EE0039DC08 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		D25ED4341E77C4EE0039DC08 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D25ED43A1E77CA9C0039DC08 /* BaseModule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseModule.cpp; path = ../../SpiritEngine/SpiritEngine/BaseModule.cpp; sourceTree = "<group>"; };
+		D25ED43B1E77CA9C0039DC08 /* BaseModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseModule.h; path = ../../SpiritEngine/SpiritEngine/BaseModule.h; sourceTree = "<group>"; };
+		D25ED43E1E77CA9C0039DC08 /* BoxShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BoxShape.cpp; path = ../../SpiritEngine/SpiritEngine/BoxShape.cpp; sourceTree = "<group>"; };
+		D25ED43F1E77CA9C0039DC08 /* BoxShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoxShape.h; path = ../../SpiritEngine/SpiritEngine/BoxShape.h; sourceTree = "<group>"; };
+		D25ED4401E77CA9C0039DC08 /* Config.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Config.cpp; path = ../../SpiritEngine/SpiritEngine/Config.cpp; sourceTree = "<group>"; };
+		D25ED4411E77CA9C0039DC08 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Config.h; path = ../../SpiritEngine/SpiritEngine/Config.h; sourceTree = "<group>"; };
+		D25ED4421E77CA9C0039DC08 /* Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Enums.h; path = ../../SpiritEngine/SpiritEngine/Enums.h; sourceTree = "<group>"; };
+		D25ED4431E77CA9C0039DC08 /* InputManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InputManager.cpp; path = ../../SpiritEngine/SpiritEngine/InputManager.cpp; sourceTree = "<group>"; };
+		D25ED4441E77CA9C0039DC08 /* InputManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputManager.h; path = ../../SpiritEngine/SpiritEngine/InputManager.h; sourceTree = "<group>"; };
+		D25ED4451E77CA9C0039DC08 /* LuaScript.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LuaScript.cpp; path = ../../SpiritEngine/SpiritEngine/LuaScript.cpp; sourceTree = "<group>"; };
+		D25ED4461E77CA9C0039DC08 /* LuaScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LuaScript.h; path = ../../SpiritEngine/SpiritEngine/LuaScript.h; sourceTree = "<group>"; };
+		D25ED4481E77CA9C0039DC08 /* PolygonShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PolygonShape.cpp; path = ../../SpiritEngine/SpiritEngine/PolygonShape.cpp; sourceTree = "<group>"; };
+		D25ED4491E77CA9C0039DC08 /* PolygonShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PolygonShape.h; path = ../../SpiritEngine/SpiritEngine/PolygonShape.h; sourceTree = "<group>"; };
+		D25ED4521E77CAC60039DC08 /* Renderable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Renderable.cpp; path = ../../SpiritEngine/SpiritEngine/Renderable.cpp; sourceTree = "<group>"; };
+		D25ED4531E77CAC60039DC08 /* Renderable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Renderable.h; path = ../../SpiritEngine/SpiritEngine/Renderable.h; sourceTree = "<group>"; };
+		D25ED4541E77CAC60039DC08 /* RenderManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RenderManager.cpp; path = ../../SpiritEngine/SpiritEngine/RenderManager.cpp; sourceTree = "<group>"; };
+		D25ED4551E77CAC60039DC08 /* RenderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RenderManager.h; path = ../../SpiritEngine/SpiritEngine/RenderManager.h; sourceTree = "<group>"; };
+		D25ED4561E77CAC60039DC08 /* seCircleShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = seCircleShape.cpp; path = ../../SpiritEngine/SpiritEngine/seCircleShape.cpp; sourceTree = "<group>"; };
+		D25ED4571E77CAC60039DC08 /* seCircleShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = seCircleShape.h; path = ../../SpiritEngine/SpiritEngine/seCircleShape.h; sourceTree = "<group>"; };
+		D25ED4581E77CAC60039DC08 /* seShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = seShape.cpp; path = ../../SpiritEngine/SpiritEngine/seShape.cpp; sourceTree = "<group>"; };
+		D25ED4591E77CAC60039DC08 /* seShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = seShape.h; path = ../../SpiritEngine/SpiritEngine/seShape.h; sourceTree = "<group>"; };
+		D25ED45A1E77CAC60039DC08 /* seVector2f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = seVector2f.cpp; path = ../../SpiritEngine/SpiritEngine/seVector2f.cpp; sourceTree = "<group>"; };
+		D25ED45B1E77CAC60039DC08 /* seVector2f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = seVector2f.h; path = ../../SpiritEngine/SpiritEngine/seVector2f.h; sourceTree = "<group>"; };
+		D25ED45C1E77CAC60039DC08 /* SpiritEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SpiritEngine.cpp; path = ../../SpiritEngine/SpiritEngine/SpiritEngine.cpp; sourceTree = "<group>"; };
+		D25ED4631E77CADE0039DC08 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ../../SpiritEngine/SpiritEngine/stdafx.h; sourceTree = "<group>"; };
+		D25ED4641E77CADE0039DC08 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tools.h; path = ../../SpiritEngine/SpiritEngine/Tools.h; sourceTree = "<group>"; };
+		D25ED47C1E77E19B0039DC08 /* BaseLua.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseLua.cpp; path = ../../SpiritEngine/SpiritEngine/BaseLua.cpp; sourceTree = "<group>"; };
+		D25ED47D1E77E19B0039DC08 /* BaseLua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseLua.h; path = ../../SpiritEngine/SpiritEngine/BaseLua.h; sourceTree = "<group>"; };
+		D25ED47E1E77E19B0039DC08 /* Content */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Content; path = ../../SpiritEngine/SpiritEngine/Content; sourceTree = "<group>"; };
+		D25ED4FA1E77E8C80039DC08 /* libBox2D.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBox2D.a; path = Libs/Box2D/Box2D/lib/libBox2D.a; sourceTree = "<group>"; };
+		D2FFB3AF1E84EC9500C8EFFE /* LuaBoxShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LuaBoxShape.cpp; path = ../../SpiritEngine/SpiritEngine/LuaBoxShape.cpp; sourceTree = "<group>"; };
+		D2FFB3B01E84EC9500C8EFFE /* LuaBoxShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LuaBoxShape.h; path = ../../SpiritEngine/SpiritEngine/LuaBoxShape.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D25ED4291E77C4EE0039DC08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23406BA1E7A55DD000EFA82 /* libluajit.a in Frameworks */,
+				D25ED4FB1E77E8C80039DC08 /* libBox2D.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D25ED4231E77C4EE0039DC08 = {
+			isa = PBXGroup;
+			children = (
+				D25ED4F71E77E8B50039DC08 /* Frameworks */,
+				D25ED42C1E77C4EE0039DC08 /* Products */,
+				D25ED42D1E77C4EE0039DC08 /* SEMAC */,
+			);
+			sourceTree = "<group>";
+		};
+		D25ED42C1E77C4EE0039DC08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D25ED42B1E77C4EE0039DC08 /* SEMAC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D25ED42D1E77C4EE0039DC08 /* SEMAC */ = {
+			isa = PBXGroup;
+			children = (
+				D25ED47C1E77E19B0039DC08 /* BaseLua.cpp */,
+				D25ED47D1E77E19B0039DC08 /* BaseLua.h */,
+				D25ED43A1E77CA9C0039DC08 /* BaseModule.cpp */,
+				D25ED43B1E77CA9C0039DC08 /* BaseModule.h */,
+				D25ED43E1E77CA9C0039DC08 /* BoxShape.cpp */,
+				D25ED43F1E77CA9C0039DC08 /* BoxShape.h */,
+				D25ED4401E77CA9C0039DC08 /* Config.cpp */,
+				D25ED4411E77CA9C0039DC08 /* Config.h */,
+				D25ED47E1E77E19B0039DC08 /* Content */,
+				D22D12061E7BB92200C6D4F5 /* Content.cpp */,
+				D22D12071E7BB92200C6D4F5 /* Content.h */,
+				D25ED4421E77CA9C0039DC08 /* Enums.h */,
+				D25ED4431E77CA9C0039DC08 /* InputManager.cpp */,
+				D25ED4441E77CA9C0039DC08 /* InputManager.h */,
+				D2FFB3AF1E84EC9500C8EFFE /* LuaBoxShape.cpp */,
+				D2FFB3B01E84EC9500C8EFFE /* LuaBoxShape.h */,
+				D22D120C1E7F4CE600C6D4F5 /* LuaContent.cpp */,
+				D22D120D1E7F4CE600C6D4F5 /* LuaContent.h */,
+				D25ED4451E77CA9C0039DC08 /* LuaScript.cpp */,
+				D25ED4461E77CA9C0039DC08 /* LuaScript.h */,
+				D22D12081E7BB92200C6D4F5 /* LuaTools.cpp */,
+				D22D12091E7BB92200C6D4F5 /* LuaTools.h */,
+				D22D120E1E7F4CE600C6D4F5 /* Plinko.cpp */,
+				D22D120F1E7F4CE600C6D4F5 /* Plinko.h */,
+				D25ED4481E77CA9C0039DC08 /* PolygonShape.cpp */,
+				D25ED4491E77CA9C0039DC08 /* PolygonShape.h */,
+				D25ED4521E77CAC60039DC08 /* Renderable.cpp */,
+				D25ED4531E77CAC60039DC08 /* Renderable.h */,
+				D25ED4541E77CAC60039DC08 /* RenderManager.cpp */,
+				D25ED4551E77CAC60039DC08 /* RenderManager.h */,
+				D25ED4301E77C4EE0039DC08 /* Resources */,
+				D24FF4FF1E823A18001AC068 /* Screen.cpp */,
+				D24FF5001E823A18001AC068 /* Screen.h */,
+				D25ED4561E77CAC60039DC08 /* seCircleShape.cpp */,
+				D25ED4571E77CAC60039DC08 /* seCircleShape.h */,
+				D22D12121E7F933F00C6D4F5 /* seMouse.cpp */,
+				D22D12131E7F933F00C6D4F5 /* seMouse.h */,
+				D25ED4581E77CAC60039DC08 /* seShape.cpp */,
+				D25ED4591E77CAC60039DC08 /* seShape.h */,
+				D25ED45A1E77CAC60039DC08 /* seVector2f.cpp */,
+				D25ED45B1E77CAC60039DC08 /* seVector2f.h */,
+				D25ED45C1E77CAC60039DC08 /* SpiritEngine.cpp */,
+				D25ED4631E77CADE0039DC08 /* stdafx.h */,
+				D24FF5041E833536001AC068 /* Tools.cpp */,
+				D25ED4641E77CADE0039DC08 /* Tools.h */,
+			);
+			path = SEMAC;
+			sourceTree = "<group>";
+		};
+		D25ED4301E77C4EE0039DC08 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D25ED4311E77C4EE0039DC08 /* cute_image.jpg */,
+				D25ED4321E77C4EE0039DC08 /* nice_music.ogg */,
+				D25ED4331E77C4EE0039DC08 /* sansation.ttf */,
+				D25ED4341E77C4EE0039DC08 /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D25ED4F71E77E8B50039DC08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D23406B91E7A55DD000EFA82 /* libluajit.a */,
+				D25ED4FA1E77E8C80039DC08 /* libBox2D.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D25ED42A1E77C4EE0039DC08 /* SEMAC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25ED4371E77C4EE0039DC08 /* Build configuration list for PBXNativeTarget "SEMAC" */;
+			buildPhases = (
+				D25ED4281E77C4EE0039DC08 /* Sources */,
+				D25ED4291E77C4EE0039DC08 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SEMAC;
+			productName = SEMAC;
+			productReference = D25ED42B1E77C4EE0039DC08 /* SEMAC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D25ED4241E77C4EE0039DC08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Scott Maunder";
+				TargetAttributes = {
+					D25ED42A1E77C4EE0039DC08 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D25ED4271E77C4EE0039DC08 /* Build configuration list for PBXProject "SEMAC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D25ED4231E77C4EE0039DC08;
+			productRefGroup = D25ED42C1E77C4EE0039DC08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D25ED42A1E77C4EE0039DC08 /* SEMAC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D25ED4281E77C4EE0039DC08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22D120B1E7BB92200C6D4F5 /* LuaTools.cpp in Sources */,
+				D25ED44C1E77CA9C0039DC08 /* BoxShape.cpp in Sources */,
+				D22D12111E7F4CE600C6D4F5 /* Plinko.cpp in Sources */,
+				D25ED4511E77CA9C0039DC08 /* PolygonShape.cpp in Sources */,
+				D25ED45E1E77CAC60039DC08 /* RenderManager.cpp in Sources */,
+				D22D120A1E7BB92200C6D4F5 /* Content.cpp in Sources */,
+				D25ED44D1E77CA9C0039DC08 /* Config.cpp in Sources */,
+				D22D12101E7F4CE600C6D4F5 /* LuaContent.cpp in Sources */,
+				D25ED45D1E77CAC60039DC08 /* Renderable.cpp in Sources */,
+				D25ED47F1E77E19B0039DC08 /* BaseLua.cpp in Sources */,
+				D25ED4621E77CAC60039DC08 /* SpiritEngine.cpp in Sources */,
+				D25ED45F1E77CAC60039DC08 /* seCircleShape.cpp in Sources */,
+				D25ED44A1E77CA9C0039DC08 /* BaseModule.cpp in Sources */,
+				D25ED44F1E77CA9C0039DC08 /* LuaScript.cpp in Sources */,
+				D25ED4601E77CAC60039DC08 /* seShape.cpp in Sources */,
+				D24FF5051E833536001AC068 /* Tools.cpp in Sources */,
+				D24FF5011E823A18001AC068 /* Screen.cpp in Sources */,
+				D22D12141E7F933F00C6D4F5 /* seMouse.cpp in Sources */,
+				D2FFB3B11E84EC9500C8EFFE /* LuaBoxShape.cpp in Sources */,
+				D25ED4611E77CAC60039DC08 /* seVector2f.cpp in Sources */,
+				D25ED44E1E77CA9C0039DC08 /* InputManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D25ED4351E77C4EE0039DC08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		D25ED4361E77C4EE0039DC08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		D25ED4381E77C4EE0039DC08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+					"${SRCROOT}/Libs/Box2D",
+					"${SRCROOT}/Libs/LuaJIT-2.0.4/src/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+					"${SRCROOT}/Libs/Box2D/Box2D/lib",
+					/Users/scott/Documents/workspace/SpiritEngine/Spirit,
+					"Engine/SEMAC/Libs/LuaJIT-2.0.4/src/libluajit.a",
+					"$(PROJECT_DIR)/Libs/Box2D/Box2D/lib",
+					"$(PROJECT_DIR)/Libs/LuaJIT-2.0.4/src",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"-pagezero_size",
+					10000,
+					"-image_base",
+					100000000,
+				);
+				OTHER_OSACOMPILEFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D25ED4391E77C4EE0039DC08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				GCC_OPTIMIZATION_LEVEL = s;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+					"${SRCROOT}/Libs/Box2D",
+					"${SRCROOT}/Libs/LuaJIT-2.0.4/src/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+					"${SRCROOT}/Libs/Box2D/Box2D/lib",
+					/Users/scott/Documents/workspace/SpiritEngine/Spirit,
+					"Engine/SEMAC/Libs/LuaJIT-2.0.4/src/libluajit.a",
+					"$(PROJECT_DIR)/Libs/Box2D/Box2D/lib",
+					"$(PROJECT_DIR)/Libs/LuaJIT-2.0.4/src",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"-pagezero_size",
+					10000,
+					"-image_base",
+					100000000,
+				);
+				OTHER_OSACOMPILEFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D25ED4271E77C4EE0039DC08 /* Build configuration list for PBXProject "SEMAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25ED4351E77C4EE0039DC08 /* Debug */,
+				D25ED4361E77C4EE0039DC08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25ED4371E77C4EE0039DC08 /* Build configuration list for PBXNativeTarget "SEMAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25ED4381E77C4EE0039DC08 /* Debug */,
+				D25ED4391E77C4EE0039DC08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D25ED4241E77C4EE0039DC08 /* Project object */;
+}
